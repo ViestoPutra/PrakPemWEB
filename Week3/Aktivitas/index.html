@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemen Semantik</title>
+</head>
+<body>
+    <header>
+        <h1>Viesto Putra</h1>
+        <!-- navbar -->
+        <nav>
+            <ul type="none">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="artikel.html">Artikel</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="lagu">
+        <p>Daftar <span class="highlight">lagu</span></p>
+        <ul>
+            <li>spectre <br>
+                <audio 
+                src="Spectre [CLiDemXYSLc].mp3" controls ></audio>
+            </li>
+            <li>jigsaw fallin into a place <br>
+                <audio 
+                src="Radiohead - Jigsaw Falling Into Place [GoLJJRIWCLU].mp3" controls ></audio>
+            </li>
+            <li>nude <br>
+                <audio 
+                src="Radiohead - Nude [BbWBRnDK_AE].mp3" controls ></audio>
+            </li>
+            <li>Sirine <br>
+                <audio autoplau loop 
+                src="siren meme _ sound effect [YrV667_7XIU].mp3" controls ></audio>
+            </li>
+        </ul>
+    </div>
+
+    <div class="video">
+        <video controls src="videocontoh.mp4" width="459"></video>
+    </div>
+        
+    <div id="kontak">
+        <h3>kontak saya</h3>
+        <form action="">
+            <table border="1" cellspacing="0" cellpadding="5">
+                <tr>
+                    <td>
+                        <label for="nama">Nama</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nama" id="nama" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="NIM">NIM</label>
+                    </td>
+                    <td>
+                        <input type="number" name="NIM" id="NIM" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="jenis kelamin">Jenis Kelamin</label>
+                    </td>
+                    <td>
+                        <input type="radio" value="pria">pria <br>
+                        <input type="radio" value="wanita">wanita
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hobi">Hobi</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="hobi">hobi1 <br>
+                        <input type="checkbox" name="hobi">hobi2 <br>
+                        <input type="checkbox" name="hobi">hobi3
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="prodi">Program Studi</label>
+                    </td>
+                    <td>
+                        <select name="prodi">
+                            <option value="TI">Teknik Informatika</option>
+                            <option value="SI" selected>Sistem Informasi</option>
+                            <option value="DKV">Desain Komunikasi Visual</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" name="submit" value="submit">
+            <input type="reset" name="reset" value="reset">
+        </form>    
+    </div>
+    <footer>
+        <p>Copyright &copy; 2025</p>
+    </footer>
+</body>
+</html>
