@@ -1,0 +1,50 @@
+.card-lagu{
+    width: 300px;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-lagu .contoh-lagu{
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px
+}
+
+.card-lagu button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.card-lagu button:hover{
+    background-color: brown;
+}
+
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ac/Radiohead_2018_composite.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+li::marker{
+    color: bisque;
+    font-size: medium;
+}
+
+p::first-letter{
+    color: rgb(74, 68, 59);
+    font-size: 30px;
+}
+
+p::first-line{
+    color: rgb(74, 68, 59);
+    font-size: 30px;
+}
+

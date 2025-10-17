@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.profile img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(44, 42, 42);
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+.profile p {
+    max-width: 600px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    border: 2px solid #4f46e5;
+    background-color: #4f46e5;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #4f46e5;;
+}
+
+.btn-outline {
+    border: 2px solid #4f46e5;
+    color: #4f46e5;
+}
+
+.btn-outline:hover {
+    background-color: #4f46e5;
+    color: white;
+}
