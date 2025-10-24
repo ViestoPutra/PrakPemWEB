@@ -1,0 +1,34 @@
+body {
+    width: 90%;
+    margin: auto;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.page-header {
+    background-color: #839fbe;
+    color: white;
+    padding: 5px;
+    height: auto;
+}
+
+.main-article {
+    background-color: #e0e0e4;
+    padding: 20px;
+}
+
+.page-footer {
+    background-color: #605c5c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+}
+
+p{
+    line-height: 1.5;
+}
+img {   
+    width: 60px;         
+    height: auto;
+    float: left;
+}
