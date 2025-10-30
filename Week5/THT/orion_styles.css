@@ -1,0 +1,81 @@
+body { 
+  margin: 0; 
+  font-family: "Trebuchet MS", sans-serif; 
+  background:#0f1724; 
+  color:#e6eef8;
+  background-image: url(Seal_of_the_Central_Intelligence_Agency.svg.png);
+  background-size: 20%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mission-control {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+  padding: 28px;
+}
+
+.asset-card {
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  padding: 15px; 
+  background: #1f2937e4;
+  border-radius: 10px;
+  border: 2px solid #555;
+}
+
+.asset-status { 
+  margin-top: auto; 
+  font-weight: bold; 
+}
+  
+.asset-card:hover { 
+  border: 2px solid #FF00FF; 
+  border-radius: 10px;
+}
+
+.asset-card::after {
+  content: "Buka Arsip Proyek";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: #131921ba;
+  color: #f8faff;
+  opacity: 0; 
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.asset-card:hover::after { 
+  opacity: 1; 
+}
+
+#priority-alpha { 
+  border: 2px solid #00FFFF; 
+  border-radius: 10px;
+}
+
+
+#priority-alpha:hover { 
+  border: 2px solid #FF00FF; 
+  border-radius: 10px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  border:3px solid #383b6b;
+  align-self: center;
+}
+
+mark{
+  background-color: #345781;
+  color: #e6eef8;
+}
